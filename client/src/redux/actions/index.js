@@ -15,8 +15,6 @@ export function getAllCities(payload) {
       const nombre = lista.find((element) => {
         if (element.nombre === ciudadElegida) {
           return element;
-        } else {
-          return "No se encontró la ciudad";
         }
       });
       dispatch({

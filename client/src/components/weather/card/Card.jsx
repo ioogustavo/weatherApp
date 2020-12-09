@@ -6,20 +6,19 @@ import Name from "./name/Name";
 import Pressure from "./pressure/Pressure";
 import Temperature from "./temperature/Temperature";
 
+import "./card.css";
+
 export default function Card(props) {
-
-
   return (
-    <div className="container h-100">
-      <div className="row justify-content-center h-100">
+    <div className="container center">
+      <div className="row justify-content-center">
         <div className="col-sm-8 align-self-center text-center">
           <div className="card shadow">
             <div className="card-body">
-              {/* {console.log(props.props)} */}
               <Name props={props.props.nombre} />
               {/* Se podrian preparar de mejor manera, refactorizar */}
-              <Map props={props.props}/>
-              <Temperature props={props.props}/>
+              <Map props={props.props} />
+              <Temperature props={props.props} />
               <Humidity props={props.props.humedad} />
               <Pressure props={props.props.presion} />
             </div>

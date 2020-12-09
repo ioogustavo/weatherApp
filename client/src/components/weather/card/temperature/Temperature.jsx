@@ -2,16 +2,18 @@ import React from "react";
 
 export default function Temperature(props) {
   return (
-    <div className="container h-100">
+    <div className="container">
       <div className="row justify-content-center h-100">
-        <div className="col-sm-8 align-self-center text-center">
-          <div className="card shadow">
-            <div className="card-body">
-              <h3>{props.props.temp_minima}</h3>
-              <h3>{props.props.temp_maxima}</h3>
-            </div>
+        {props.props ? (
+          <div>
+            <h4>Temp. Min: {props.props.temp_minima}</h4>
+            <h4>Temp. Max: {props.props.temp_maxima}</h4>
           </div>
-        </div>
+        ) : (
+          <div>
+            <h4>No se encuentra las temperaturas</h4>
+          </div>
+        )}
       </div>
     </div>
   );

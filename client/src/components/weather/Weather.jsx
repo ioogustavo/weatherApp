@@ -35,13 +35,18 @@ export function Weather(props) {
 
   return (
     <div>
-      <div className="row">
+      <div className="column">
+        <br />
+        <br />
+        <br />
         <div className="col-md-6 offset-md-3">
-          <h3>Selecciona una ciudad</h3>
+          <div className="col-md-12 text-center">
+            <h3>Selecciona una ciudad</h3>
+          </div>
           <br />
 
           <div className="form-row">
-            <div className="form-group col-md-6">
+            <div className="col-md-12 text-center">
               <select
                 className="browser-default custom-select"
                 name="city"
@@ -56,7 +61,7 @@ export function Weather(props) {
               </select>
             </div>
           </div>
-
+          <br />
           <div className="form-row">
             <div className="col-md-12 text-center">
               <button
@@ -64,13 +69,16 @@ export function Weather(props) {
                 className="btn btn-primary"
                 onClick={() => handleSubmit()}
               >
-                Submit
+                Buscar Ciudad
               </button>
             </div>
           </div>
+          <br />
+          <br />
         </div>
       </div>
       {!props.city ? <Card props={city} /> : <Card props={props.city.city} />}
+      <br />
     </div>
   );
 }
