@@ -15,8 +15,21 @@ const db = admin.database();
 router.get("/allCities", (req, res) => {
   db.ref("provincias").once("value", (snapshot) => {
     const data = snapshot.val();
-    // console.log(data)
     res.send({ hola: data });
+  });
+});
+
+router.get("/allCities/:name", (req, res) => {
+  let name = req.params.name;
+  db.ref("provincias").once("value", (snapshot) => {
+    const data = snapshot.val();
+    let lista = data;
+    const nombre = lista.find((element) => {
+      if (element.nombre === name) {
+        return element;
+      }
+    });
+    res.send({ hola: nombre });
   });
 });
 

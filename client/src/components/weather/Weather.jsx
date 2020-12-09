@@ -1,8 +1,8 @@
 import React, { useEffect, useState } from "react";
-import Card from "./card/Card.jsx";
 import axios from "axios";
 import { connect } from "react-redux";
 import { getAllCities } from "../../redux/actions/index.js";
+import Card from "./card";
 
 export function Weather(props) {
   //nombre de ciudad seleccionada con todos sus datos
@@ -51,13 +51,14 @@ export function Weather(props) {
                 className="browser-default custom-select"
                 name="city"
                 onChange={handleInputChange}
+                defaultValue={'DEFAULT'}
               >
                 <option selected disabled>
                   Selecciona una ciudad
                 </option>
 
                 {nameCity &&
-                  nameCity.map((name) => <option value={name}>{name}</option>)}
+                  nameCity.map((name) => <option key={name} value={name}>{name}</option>)}
               </select>
             </div>
           </div>

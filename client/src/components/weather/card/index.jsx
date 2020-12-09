@@ -1,10 +1,10 @@
 import React from "react";
 
-import Humidity from "./humidity/Humidity";
-import Map from "./map/Map";
-import Name from "./name/Name";
-import Pressure from "./pressure/Pressure";
-import Temperature from "./temperature/Temperature";
+import Humidity from "./Humidity";
+import Map from "./Map";
+import Name from "./Name";
+import Pressure from "./Pressure";
+import Temperature from "./Temperature";
 
 import "./card.css";
 
