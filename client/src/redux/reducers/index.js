@@ -1,5 +1,12 @@
-import { combineReducers } from "redux";
+const initialState = {
+  city: [],
+};
 
-export default combineReducers({
-    
-});
+export default function rooReducer(state = initialState, action) {
+  if (action.type === "GET_CITY") {
+    return {
+      ...state,
+      city: action.payload,
+    };
+  }
+}

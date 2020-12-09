@@ -1,0 +1,272 @@
+{
+  "provincias": [
+    {
+      "nombre": "Misiones",
+      "id": "54",
+      "presion": "1016,8 hPa",
+      "humedad": "83 %",
+      "temp_maxima": "27,9 °C",
+      "temp_minima": "19,2 °C",
+      "categoria": "Provincia",
+      "iso_nombre": "Misiones",
+      "centroide": { "lat": -26.8753965086829, "lon": -54.6516966230371 }
+    },
+    {
+      "nombre": "San Luis",
+      "id": "74",
+      "presion": "1010 hPa",
+      "humedad": "60.5 %",
+      "temp_maxima": "25 °C",
+      "temp_minima": "22 °C",
+      "categoria": "Provincia",
+      "iso_nombre": "San Luis",
+      "centroide": { "lat": -33.7577257449137, "lon": -66.0281298195836 }
+    },
+    {
+      "nombre": "San Juan",
+      "id": "70",
+      "presion": "1016 hPa",
+      "humedad": "29.6 %",
+      "temp_maxima": "18 °C ",
+      "temp_minima": "10 °C",
+      "categoria": "Provincia",
+      "iso_nombre": "San Juan",
+      "centroide": { "lat": -30.8653679979618, "lon": -68.8894908486844 }
+    },
+    {
+      "nombre": "Entre Ríos",
+      "id": "30",
+      "presion": "1021 hPa",
+      "humedad": "48 %",
+      "temp_maxima": "25 °C ",
+      "temp_minima": "17 °C",
+      "categoria": "Provincia",
+      "iso_nombre": "Entre Ríos",
+      "centroide": { "lat": -32.0588735436448, "lon": -59.2014475514635 }
+    },
+    {
+      "nombre": "Santa Cruz",
+      "id": "78",
+      "presion": "1010 hPa",
+      "humedad": "49 %",
+      "temp_maxima": "17 °C ",
+      "temp_minima": "9 °C",
+      "categoria": "Provincia",
+      "iso_nombre": "Santa Cruz",
+      "centroide": { "lat": -48.8154851827063, "lon": -69.9557621671973 }
+    },
+    {
+      "nombre": "Río Negro",
+      "id": "62",
+      "presion": "1014 hPa",
+      "humedad": "48 %",
+      "temp_maxima": "33 °C ",
+      "temp_minima": "21 °C",
+      "categoria": "Provincia",
+      "iso_nombre": "Río Negro",
+      "centroide": { "lat": -40.4057957178801, "lon": -67.229329893694 }
+    },
+    {
+      "nombre": "Chubut",
+      "id": "26",
+      "presion": "1000 hPa",
+      "humedad": "17.8 %",
+      "temp_maxima": "19 °C",
+      "temp_minima": "8 °C",
+      "categoria": "Provincia",
+      "iso_nombre": "Chubut",
+      "centroide": { "lat": -43.7886233529878, "lon": -68.5267593943345 }
+    },
+    {
+      "nombre": "Córdoba",
+      "id": "14",
+      "presion": "1011 hPa",
+      "humedad": "53.8 %",
+      "temp_maxima": "16 °C",
+      "temp_minima": "10 °C",
+      "categoria": "Provincia",
+      "iso_nombre": "Córdoba",
+      "centroide": { "lat": -32.142932663607, "lon": -63.8017532741662 }
+    },
+    {
+      "nombre": "Mendoza",
+      "id": "50",
+      "presion": "1018 hPa",
+      "humedad": "43.7%",
+      "temp_maxima": "23 °C",
+      "temp_minima": "13 °C",
+      "categoria": "Provincia",
+      "iso_nombre": "Mendoza",
+      "centroide": { "lat": -34.6298873058957, "lon": -68.5831228183798 }
+    },
+    {
+      "nombre": "La Rioja",
+      "id": "46",
+      "presion": "1006 hPa",
+      "humedad": "46.8 %",
+      "temp_maxima": "34 °C",
+      "temp_minima": "15 °C",
+      "categoria": "Provincia",
+      "iso_nombre": "La Rioja",
+      "centroide": { "lat": -29.685776298315, "lon": -67.1817359694432 }
+    },
+    {
+      "nombre": "Catamarca",
+      "id": "10",
+      "presion": "1015 hPa",
+      "humedad": "60.2 %",
+      "temp_maxima": "21 °C",
+      "temp_minima": "9 °C",
+      "categoria": "Provincia",
+      "iso_nombre": "Catamarca",
+      "centroide": { "lat": -27.3358332810217, "lon": -66.9476824299928 }
+    },
+    {
+      "nombre": "La Pampa",
+      "id": "42",
+      "presion": "1013.8 hPa",
+      "humedad": "83 %",
+      "temp_maxima": "28.6 ºC",
+      "temp_minima": "17 °C",
+      "categoria": "Provincia",
+      "iso_nombre": "La Pampa",
+      "centroide": { "lat": -37.1315537735949, "lon": -65.4466546606951 }
+    },
+    {
+      "nombre": "Santiago del Estero",
+      "id": "86",
+      "presion": "1014 hPa",
+      "humedad": "69.2 %",
+      "temp_maxima": "24 °C",
+      "temp_minima": "12 °C",
+      "categoria": "Provincia",
+      "iso_nombre": "Santiago del Estero",
+      "centroide": { "lat": -27.7824116550944, "lon": -63.2523866568588 }
+    },
+    {
+      "nombre": "Corrientes",
+      "id": "18",
+      "presion": "1017 hPa",
+      "humedad": "53.8 %",
+      "temp_maxima": "25 °C",
+      "temp_minima": "10 °C",
+      "categoria": "Provincia",
+      "iso_nombre": "Corrientes",
+      "centroide": { "lat": -28.7743047046407, "lon": -57.8012191977913 }
+    },
+    {
+      "nombre": "Santa Fe",
+      "id": "82",
+      "presion": "1020 hPa",
+      "humedad": "43 %",
+      "temp_maxima": "25 °C",
+      "temp_minima": "18 °C",
+      "categoria": "Provincia",
+      "iso_nombre": "Santa Fe",
+      "centroide": { "lat": -30.7069271588117, "lon": -60.9498369430241 }
+    },
+    {
+      "nombre": "Tucumán",
+      "id": "90",
+      "presion": "1018 hPa",
+      "humedad": "57 %",
+      "temp_maxima": "26 °C",
+      "temp_minima": "20 °C",
+      "categoria": "Provincia",
+      "iso_nombre": "Tucumán",
+      "centroide": { "lat": -26.9478001830786, "lon": -65.3647579441481 }
+    },
+    {
+      "nombre": "Neuquén",
+      "id": "58",
+      "presion": "1012 hPa",
+      "humedad": "25 %",
+      "temp_maxima": "33 °C",
+      "temp_minima": "25 °C",
+      "categoria": "Provincia",
+      "iso_nombre": "Neuquén",
+      "centroide": { "lat": -38.6417575824599, "lon": -70.1185705180601 }
+    },
+    {
+      "nombre": "Salta",
+      "id": "66",
+      "presion": "1018 hPa",
+      "humedad": "52 %",
+      "temp_maxima": "22 °C",
+      "temp_minima": "15 °C",
+      "categoria": "Provincia",
+      "iso_nombre": "Salta",
+      "centroide": { "lat": -24.2991344492002, "lon": -64.8144629600627 }
+    },
+    {
+      "nombre": "Chaco",
+      "id": "22",
+      "presion": "1017 hPa",
+      "humedad": "49 %",
+      "temp_maxima": "28 °C",
+      "temp_minima": "17 °C",
+      "categoria": "Provincia",
+      "iso_nombre": "Chaco",
+      "centroide": { "lat": -26.3864309061226, "lon": -60.7658307438603 }
+    },
+    {
+      "nombre": "Formosa",
+      "id": "34",
+      "presion": "1016 hPa",
+      "humedad": "58 %",
+      "temp_maxima": "29 °C",
+      "temp_minima": "20 °C",
+      "categoria": "Provincia",
+      "iso_nombre": "Formosa",
+      "centroide": { "lat": -24.894972594871, "lon": -59.9324405800872 }
+    },
+    {
+      "nombre": "Jujuy",
+      "id": "38",
+      "presion": "1019 hPa",
+      "humedad": "59 %",
+      "temp_maxima": "20 °C",
+      "temp_minima": "13 °C",
+      "categoria": "Provincia",
+      "iso_nombre": "Jujuy",
+      "centroide": { "lat": -23.3200784211351, "lon": -65.7642522180337 }
+    },
+    {
+      "nombre": "Ciudad Autónoma de Buenos Aires",
+      "id": "02",
+      "presion": "1022 hPa",
+      "humedad": "45 %",
+      "temp_maxima": "21 °C",
+      "temp_minima": "12 °C",
+      "categoria": "Ciudad Autónoma",
+      "iso_nombre": "Ciudad Autónoma de Buenos Aires",
+      "centroide": { "lat": -34.6144934119689, "lon": -58.4458563545429 }
+    },
+    {
+      "nombre": "Buenos Aires",
+      "id": "06",
+      "presion": "1022 hPa",
+      "humedad": "49 %",
+      "temp_maxima": "22 °C",
+      "temp_minima": "11 °C",
+      "categoria": "Provincia",
+      "iso_nombre": "Buenos Aires",
+      "centroide": { "lat": -36.6769415180527, "lon": -60.5588319815719 }
+    },
+    {
+      "nombre": "Tierra del Fuego",
+      "id": "94",
+      "presion": "1002 hPa",
+      "humedad": "77 %",
+      "temp_maxima": "13 °C",
+      "temp_minima": "3 °C",
+      "categoria": "Provincia",
+      "iso_nombre": "Tierra del Fuego",
+      "centroide": { "lat": -82.52151781221, "lon": -50.7427486049785 }
+    }
+  ],
+  "total": 24,
+  "cantidad": 24,
+  "parametros": {},
+  "inicio": 0
+}

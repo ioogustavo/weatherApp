@@ -2,11 +2,13 @@ const express = require("express");
 const morgan = require("morgan");
 const exphbs = require("express-handlebars");
 const path = require("path");
+let cors = require("cors");
 
 const app = express();
 
 //settings
 app.set("port", 3001);
+app.use(cors({ origin: true, credentials: true }));
 app.set("views", path.join(__dirname, "views"));
 app.engine(
   ".hbs",

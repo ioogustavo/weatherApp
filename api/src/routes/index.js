@@ -12,18 +12,11 @@ admin.initializeApp({
 
 const db = admin.database();
 
-router.get("/", (req, res) => {
-  db.ref("hola").once("value", (snapshot) => {
+router.get("/allCities", (req, res) => {
+  db.ref("provincias").once("value", (snapshot) => {
     const data = snapshot.val();
-    // res.render("index", { hola: data });
-    res.send({hola: data})
-    console.log("CHE", {hola: data})
+    res.send({ hola: data });
   });
-});
-
-router.post("./new-contact", (req, res) => {
-  console.log(req.body);
-  res.send("received");
 });
 
 module.exports = router;
