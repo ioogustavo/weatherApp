@@ -14,5 +14,5 @@ Utilicé Bootstrap para el control del css y html en el proyecto, ademas de las 
 Tal vez vea que solo carga Mendoza pero no los otros mapas, esto sucede porque pide que yo cargue una tarjeta de crédito en la consola de google para poder usarla y como no me aceptó la que tengo, no podrá visualizar las demas ciudades.
 
 <img src='./client/src/images/1.png'></img>
-<img src='./client/src/images/2.png'"></img>
+<img src='./client/src/images/2.png'></img>
 <img src='./client/src/images/3.png'></img>
