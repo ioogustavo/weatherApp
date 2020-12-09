@@ -15,6 +15,7 @@ const db = admin.database();
 router.get("/allCities", (req, res) => {
   db.ref("provincias").once("value", (snapshot) => {
     const data = snapshot.val();
+    // console.log(data)
     res.send({ hola: data });
   });
 });
